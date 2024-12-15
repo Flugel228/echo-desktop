@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Providers;
+namespace App\Ship\Providers;
 
-use Native\Laravel\Facades\Window;
 use Native\Laravel\Contracts\ProvidesPhpIni;
+use Native\Laravel\Facades\Window;
 
 class NativeAppServiceProvider implements ProvidesPhpIni
 {
